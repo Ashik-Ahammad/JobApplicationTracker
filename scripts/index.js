@@ -173,10 +173,8 @@ if (event.target.closest(".delete-btn")) {
     job => job.companyName !== companyName
   );
 
-  // remove from UI
   card.remove();
 
-  // refresh sections instantly
   renderInterviewCards();
   renderRejectedCards();
   calculateCount();
