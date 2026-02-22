@@ -13,7 +13,7 @@
 *
 
 *
-1. To create and insert a new element into the DOM, first you create the element using document.createElement(). Then you add text or content inside it using properties like innerText or innerHTML. After that, you insert it into the page by using methods like appendChild() or append() on a parent element. This is how new elements are dynamically added to a webpage.
+2. To create and insert a new element into the DOM, first you create the element using document.createElement(). Then you add text or content inside it using properties like innerText or innerHTML. After that, you insert it into the page by using methods like appendChild() or append() on a parent element. This is how new elements are dynamically added to a webpage.
 *
 
 *
