@@ -46,6 +46,40 @@
         </div>
       </div>
     </header>
+
+    <!-- *******************************Main****************************** -->
+
+    <main class="w-[80%] mx-auto">
+      <div class="flex justify-between mt-4 items-center">
+        <div class="text-2xl font-semibold"><h1>Available Jobs</h1></div>
+        <div class="text-gray-600">
+          <p><span id="job-count">0</span> Jobs</p>
+        </div>
+      </div>
+      <div class="mt-5">
+        <button
+          class="bg-blue-500 text-white px-5 py-3 btn btn-soft"
+          id="all-filter-btn"
+          onclick="toggleStyle('all-filter-btn')"
+        >
+          All
+        </button>
+        <button
+          class="bg-gray-300 px-5 py-3 btn btn-soft"
+          id="interview-filter-btn"
+          onclick="toggleStyle('interview-filter-btn')"
+        >
+          Interview
+        </button>
+        <button
+          class="bg-gray-300 px-5 py-3 btn btn-soft"
+          id="rejected-filter-btn"
+          onclick="toggleStyle('rejected-filter-btn')"
+        >
+          Rejected
+        </button>
+      </div>
+    </main>  
     
     <script src="scripts/index.js"></script>
 </body>
