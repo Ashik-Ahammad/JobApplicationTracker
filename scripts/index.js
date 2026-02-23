@@ -29,10 +29,10 @@ function calculateCount() {
   reject.innerText = rejectedList.length;
 
   if(activeTab === "interview"){
-    jobsAvailable.innerText = interviewList.length;
+    interviewList.length === 0 ? jobsAvailable.innerText = 0 : jobsAvailable.innerText = interviewList.length + " of " + allCardSecion.children.length;
   }
   else if(activeTab === "rejected"){
-    jobsAvailable.innerText = rejectedList.length;
+    rejectedList.length === 0 ? jobsAvailable.innerText = 0 : jobsAvailable.innerText = rejectedList.length + " of " + allCardSecion.children.length;
   }
   else{
     jobsAvailable.innerText = allCardSecion.children.length;
